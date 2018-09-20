@@ -67,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("test","response:"+response.getString("response"));
                     }
          });
+        //取消任务
+        //WorkManager.getInstance().cancelWorkById(testWorker.getId());
 
     }
 }
